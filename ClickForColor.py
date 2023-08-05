@@ -26,7 +26,6 @@ class ColorPickerApp(tk.Tk):
         
         self.color_history = []
         
-        # Only keyboard listener is required now
         self.keyboard_listener = keyboard.Listener(on_press=self.on_keypress)
         self.keyboard_listener.start()
 
